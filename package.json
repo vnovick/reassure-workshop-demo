@@ -7,8 +7,7 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest",
-    "perf:test": "reassure"
+    "test": "jest"
   },
   "dependencies": {
     "@react-navigation/drawer": "^6.6.6",
@@ -44,7 +43,6 @@
     "patch-package": "^8.0.0",
     "prettier": "2.8.8",
     "react-test-renderer": "18.2.0",
-    "reassure": "^0.10.2",
     "typescript": "5.0.4"
   },
   "engines": {
