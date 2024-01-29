@@ -1,13 +1,7 @@
 import {measureFunction} from 'reassure';
 import {test, jest} from '@jest/globals';
 
-function fib(n: number): number {
-  if (n <= 1) {
-    return n;
-  }
-
-  return fib(n - 1) + fib(n - 2);
-}
+import {fib} from './fib';
 
 jest.setTimeout(60_000);
 
